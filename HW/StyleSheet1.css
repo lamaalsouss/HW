@@ -1,0 +1,53 @@
+﻿body {
+}
+
+
+#form1{
+     margin:auto;
+    text-align:center;
+}
+   
+#Button1{
+     margin-top:10px;
+}
+
+.navbar{
+	background-color: #23415c;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-brand{
+	min-height: 35px;
+	padding: 0 10px 5px;
+}
+.navbar-default .navbar-nav li a{
+	color: #D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:active{
+	color: #fff;
+}
+footer{
+	width: 100%;
+	max-height: 15px;
+	background-color: #23415c;
+	padding: 0% 5% 10% 5%;
+	color: #fff;
+    position:fixed;
+    bottom:0;
+}
+.fa{
+	padding: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+.fa:hover {
+color: #D5D5D5;
+text-decoration: none;
+}
+
+#CheckBox1{
+    width:20px;
+    height:20px;
+    margin-right:10px;
+}
