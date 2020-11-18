@@ -11,7 +11,7 @@ namespace HW
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label1.Text = "Welcome " + Request.QueryString["QUSTname"].ToString()+" ^-^";
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -28,6 +28,11 @@ namespace HW
             //}
             CheckBox1.Checked = !CheckBox1.Checked;
             Button1.Text = CheckBox1.Checked ? "Click to unChecked" : "Click to Checked";
+        }
+
+        protected void Label1_DataBinding(object sender, EventArgs e)
+        {
+       
         }
     }
 }
