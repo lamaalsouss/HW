@@ -12,8 +12,15 @@
     <link href="StyleSheet1.css" rel="stylesheet" />
 </head>
 <body>
-
-    <br /><br /><br /><br /><br /><br /><br />
+     <nav class="navbar" role="navigation"> 
+    <div class="container-fluid">
+        <div class="navbar-header">
+          
+            <a class="navbar-brand" href="#"><p style="color: white ;"><strong>State Manegement </strong></p></a>
+        </div>
+    </div>
+</nav>
+   <br /><br /><br />
     <form id="form1" runat="server">
     <div>
     
